@@ -59,13 +59,13 @@
                             <li><a href="#!">Save & Logout</a></li>
                         </ul>
                     </div>
-                    <div class="col m12 center top-border"><h6>Pixar performance play</h6></div>
+                    <div class="col m12 center top-border"><h6><span><img src="images/create_salesplay.png" height="20" width="20" /></span>&nbsp; <span class="client-company">Pixar</span> performance play</h6></div>
                 </div>
             </div>
         </div>
         <div id="tab3-wrapper" class="row top-border bottom-border">
             <div class="col m12 center">
-                <h6>Benefits your product brings to customer</h6>
+                <h6>Benefits your product brings to customer &nbsp;&nbsp; <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a></h6>
             </div>
         </div>
 
@@ -118,7 +118,9 @@
 
                                 <div class="row container-fluid center-align margin-top">
                                     <div class="col m10 center-align red lighten-3">
-                                        <h6>Include commonly asked customer questions for Vaio Z?</h6>
+                                        <a href="#" class="modal-trigger" data-toggle="modal" data-target="#modalp1"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a></h6></a>
+
+                                        
                                     </div>
                                     <div class="col m2">
                                         <a class="btn btn-flat floppy"><i class="fa fa-floppy-o"></i>&nbsp; Save</a>
@@ -301,5 +303,66 @@
         </div>
     </div>
 
+    <!-- Modal Structure -->
+    <div id="modalp1" class="modal">
+        <div class="modal-header">
+            <div class="row bottom-border">
+                <div class="col m9">
+                    <h6 class="modal-title" id="Product1ModalLabel">Craft your own FAQ's customers would most likely want answers to</h6>
+                </div>
+                <div class="col m3 left-border">
+                    <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="modal-content">
+            <form>
+                <div class="input-field">
+                    <input id="client-name" type="text" class="">
+                    <label for="client-name">Question 1</label>
+                </div>
+                <div class="input-field">
+                    <input id="client-name" type="text" class="">
+                    <label for="client-name">Answer 1</label>
+                </div>
+
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a class="modal-action modal-close waves-effect waves-green btn btn-flat" href="">Submit</a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="row">
+                        <div class="col m9">
+                            <h6 class="modal-title" id="Product1ModalLabel">Craft your own FAQ's customers would most likely want answers to</h6>
+                        </div>
+                        <div class="col m3 left-border">
+                            <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="q1" class="form-control-label">URL:</label>
+                            <span><input type="text" class="form-control" id="q1"></span>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -103,8 +103,33 @@
     <Content Include="create_play_5.html" />
     <Content Include="css\sellocity.css" />
     <Content Include="css\styles.css" />
-    <Content Include="images\Salesperson_BE.png" />
-    <Content Include="images\Statistics.ico" />
+    <Content Include="images\arrowforcreate_SP.png" />
+    <Content Include="images\awards_icon.png" />
+    <Content Include="images\changepassword_icon.png" />
+    <Content Include="images\claims_icon.png" />
+    <Content Include="images\create_salesplay.png" />
+    <Content Include="images\cust.jpg" />
+    <Content Include="images\Idea_example_icon.png" />
+    <Content Include="images\manageyour_profile.png" />
+    <Content Include="images\manage_assets.png" />
+    <Content Include="images\manage_salesplay.png" />
+    <Content Include="images\manage_team.png" />
+    <Content Include="images\P1.jpg" />
+    <Content Include="images\p2.jpg" />
+    <Content Include="images\p3.jpg" />
+    <Content Include="images\p4.jpg" />
+    <Content Include="images\painpoint_icon.png" />
+    <Content Include="images\preview_icon.png" />
+    <Content Include="images\product_image_icon.png" />
+    <Content Include="images\prod_manual_icon.png" />
+    <Content Include="images\save_icon.png" />
+    <Content Include="images\send_SP_icon.png" />
+    <Content Include="images\sp1.jpg" />
+    <Content Include="images\tech_spec_icon.png" />
+    <Content Include="images\testimonials_icon.png" />
+    <Content Include="images\upload_icon.png" />
+    <Content Include="images\ViewPerformance.png" />
+    <Content Include="images\Whitepaper_icon.png" />
     <Content Include="js\create_play.js" />
     <Content Include="manage_plays.html" />
     <Content Include="manage_profile.html" />
@@ -113,6 +138,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="images\desktop.ini" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

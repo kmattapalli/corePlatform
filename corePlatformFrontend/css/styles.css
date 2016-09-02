@@ -59,7 +59,7 @@ border-radius: 15px;
     height: auto !important;
     height: 100%;
 }
-ul#tabs li{
+ul#tabs li, .inline{
     display: inline;
 }
 .size-18{
