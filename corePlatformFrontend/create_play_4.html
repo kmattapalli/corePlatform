@@ -118,7 +118,7 @@
 
                                 <div class="row container-fluid center-align margin-top">
                                     <div class="col m10 center-align red lighten-3">
-                                        <a href="#" class="modal-trigger" data-toggle="modal" data-target="#modalp1"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a></h6></a>
+                                        <a href="#" class="" data-toggle="modal" data-target="#faq-modal"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <img src="images/Idea_example_icon.png" height="30" width="25" /></h6></a>
 
                                         
                                     </div>
@@ -173,7 +173,7 @@
                                 </div>
                                 <div class="row container-fluid center-align margin-top">
                                     <div class="col m10 center-align red lighten-3">
-                                        <h6>Include commonly asked customer questions for Vaio Z?</h6>
+                                        <a href="#" class="" data-toggle="modal" data-target="#faq-modal"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <img src="images/Idea_example_icon.png" height="30" width="25" /></h6></a>
                                     </div>
                                     <div class="col m2">
                                         <a class="btn btn-flat floppy"><i class="fa fa-floppy-o"></i>&nbsp; Save</a>
@@ -228,7 +228,7 @@
 
                                 <div class="row container-fluid center-align margin-top">
                                     <div class="col m10 center-align red lighten-3">
-                                        <h6>Include commonly asked customer questions for Vaio Z?</h6>
+                                        <a href="#" class="" data-toggle="modal" data-target="#faq-modal"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <img src="images/Idea_example_icon.png" height="30" width="25" /></h6></a>
                                     </div>
                                     <div class="col m2">
                                         <a class="btn btn-flat floppy"><i class="fa fa-floppy-o"></i>&nbsp; Save</a>
@@ -281,7 +281,7 @@
                                 </div>
                                 <div class="row container-fluid center-align margin-top">
                                     <div class="col m10 center-align red lighten-3">
-                                        <h6>Include commonly asked customer questions for Vaio Z?</h6>
+                                        <a href="#" class="" data-toggle="modal" data-target="#faq-modal"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <img src="images/Idea_example_icon.png" height="30" width="25" /></h6></a>
                                     </div>
                                     <div class="col m2">
                                         <a class="btn btn-flat floppy"><i class="fa fa-floppy-o"></i>&nbsp; Save</a>
@@ -304,41 +304,11 @@
     </div>
 
     <!-- Modal Structure -->
-    <div id="modalp1" class="modal">
-        <div class="modal-header">
-            <div class="row bottom-border">
-                <div class="col m9">
-                    <h6 class="modal-title" id="Product1ModalLabel">Craft your own FAQ's customers would most likely want answers to</h6>
-                </div>
-                <div class="col m3 left-border">
-                    <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a>
-                </div>
-            </div>
-            
-        </div>
-        <div class="modal-content">
-            <form>
-                <div class="input-field">
-                    <input id="client-name" type="text" class="">
-                    <label for="client-name">Question 1</label>
-                </div>
-                <div class="input-field">
-                    <input id="client-name" type="text" class="">
-                    <label for="client-name">Answer 1</label>
-                </div>
-
-            </form>
-        </div>
-        <div class="modal-footer">
-            <a class="modal-action modal-close waves-effect waves-green btn btn-flat" href="">Submit</a>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modal1" role="dialog">
-        <div class="modal-dialog" role="document">
+    <div class="modal fade" id="faq-modal" role="dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div class="row">
+                    <div class="row bottom-border">
                         <div class="col m9">
                             <h6 class="modal-title" id="Product1ModalLabel">Craft your own FAQ's customers would most likely want answers to</h6>
                         </div>
@@ -346,20 +316,48 @@
                             <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a>
                         </div>
                     </div>
+
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="form-group">
-                            <label for="q1" class="form-control-label">URL:</label>
-                            <span><input type="text" class="form-control" id="q1"></span>
-                        </div>
+                        <div class="well">
+                            <label for="q1">Question 1</label>
+                            <div class="input-field no-margin-top">
+                                <input id="q1" type="text" class="">
+                            </div>
 
+                            <label for="a1">Answer 1</label>
+                            <div class="input-field no-margin-top">
+                                <input id="a1" type="text" class="">
+                            </div>
+                        </div>
+                        <div class="well">
+                            <label for="q2">Question 2</label>
+                            <div class="input-field no-margin-top">
+                                <input id="q2" type="text" class="">
+                            </div>
+
+                            <label for="a2">Answer 2</label>
+                            <div class="input-field no-margin-top">
+                                <input id="a2" type="text" class="">
+                            </div>
+                        </div>
+                        <div class="well">
+                            <label for="q3">Question 3</label>
+                            <div class="input-field no-margin-top">
+                                <input id="q3" type="text" class="">
+                            </div>
+
+                            <label for="a3">Answer 3</label>
+                            <div class="input-field no-margin-top">
+                                <input id="a3" type="text" class="">
+                            </div>
+                        </div>
 
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <a class="modal-action modal-close waves-effect waves-green btn btn-flat" href="">Submit</a>
                 </div>
             </div>
         </div>
