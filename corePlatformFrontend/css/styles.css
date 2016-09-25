@@ -75,7 +75,7 @@ border-radius: 15px;
 ul#tabs li, .inline{
     display: inline;
 }
-#share-modal, #disable-modal, #delete-modal, #enable-modal, #send-modal{
+#share-modal, #disable-modal, #delete-modal, #edit-modal, #send-modal{
     //width: auto !important;
     //background-color: transparent !important;
     //max-height: none !important;
