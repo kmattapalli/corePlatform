@@ -101,14 +101,15 @@
     <Content Include="create_play_3.html" />
     <Content Include="create_play_4.html" />
     <Content Include="create_play_5.html" />
-    <Content Include="css\sellocity.css" />
     <Content Include="css\styles.css" />
+    <Content Include="disabled_plays.html" />
     <Content Include="images\arrowforcreate_SP.png" />
     <Content Include="images\awards_icon.png" />
     <Content Include="images\changepassword_icon.png" />
     <Content Include="images\claims_icon.png" />
     <Content Include="images\create_salesplay.png" />
     <Content Include="images\cust.jpg" />
+    <Content Include="images\goodjob_icon.png" />
     <Content Include="images\Idea_example_icon.png" />
     <Content Include="images\manageyour_profile.png" />
     <Content Include="images\manage_assets.png" />

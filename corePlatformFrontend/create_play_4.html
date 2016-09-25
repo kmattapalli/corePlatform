@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/sellocity.css" />
     <script src=""></script>
 
 </head>
@@ -38,7 +37,7 @@
                     <li role="presentation" class=""><a href="create_play_1.html">1</a></li>
                     <li role="presentation" class=""><a href="create_play_2.html">2</a></li>
                     <li role="presentation" class=""><a href="create_play_3.html">3</a></li>
-                    <li role="presentation" class="active"><a href="#">4</a></li>
+                    <li role="presentation" class="active"><a class="underline" href="#">4</a></li>
                     <li role="presentation" class="disabled"><a href="#">5</a></li>
                 </ul>
             </div>
@@ -70,20 +69,14 @@
 
         <div class="row margin-top">
             <div class="col m12">
-                <div class="panel-group" id="accordian">
-
-                    <div class="panel panel-default">
-                        <div class="center-align panel-heading">
-                            <h6 class="panel-title">
-                                <a class="center-align" data-toggle="collapse" data-parent="#accordian" href="#collapse1">Product 1</a>
-                            </h6>
-                        </div>
-
-                        <div id="collapse1" class="panel-collapse collapse in">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header text-align active">Product 1</div>
+                        <div class="collapsible-body">
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col m4">
-                                        <h6>List the benefits that will help accomplish resolve the specific pain point #1</h6>
+                                        <h5 class="big-line-height">List the benefits that will help accomplish resolve the specific pain point #1</h5>
                                         <br /><br />
                                         <div class="center-align"><img src="images/cust.jpg" /></div>
                                     </div>
@@ -119,7 +112,7 @@
                                     <div class="col m10 center-align red lighten-3">
                                         <a href="#" class="" data-toggle="modal" data-target="#faq-modal"><h6>Include commonly asked customer questions for Vaio Z?  &nbsp;&nbsp; <img src="images/Idea_example_icon.png" height="30" width="25" /></h6></a>
 
-                                        
+
                                     </div>
                                     <div class="col m2">
                                         <a class="btn btn-flat floppy"><i class="fa fa-floppy-o"></i>&nbsp; Save</a>
@@ -127,19 +120,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-
-                    <div class="panel panel-default">
-                        <div class="center-align panel-heading">
-                            <a class="center-align panel-title" data-toggle="collapse" data-parent="#accordian" href="#collapse2">Product 2</a>
-                        </div>
-
-                        <div id="collapse2" class="panel-collapse collapse">
+                    </li>
+                    <li>
+                        <div class="collapsible-header text-align active">Product 2</div>
+                        <div class="collapsible-body">
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col m4">
-                                        <h6>List the benefits that will help accomplish resolve the specific pain point #2</h6>
+                                        <h5 class="big-line-height">List the benefits that will help accomplish resolve the specific pain point #1</h5>
                                         <br /><br />
                                         <div class="center-align"><img src="images/cust.jpg" /></div>
                                     </div>
@@ -180,20 +168,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="center-align panel-heading">
-                            <h6 class="panel-title">
-                                <a class="center-align" data-toggle="collapse" data-parent="#accordian" href="#collapse3">Product 3</a>
-                            </h6>
-                        </div>
-
-                        <div id="collapse3" class="panel-collapse collapse">
+                    </li>
+                    <li>
+                        <div class="collapsible-header text-align active">Product 3</div>
+                        <div class="collapsible-body">
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col m4">
-                                        <h6>List the benefits that will help accomplish resolve the specific pain point #3</h6>
+                                        <h5 class="big-line-height">List the benefits that will help accomplish resolve the specific pain point #1</h5>
                                         <br /><br />
                                         <div class="center-align"><img src="images/cust.jpg" /></div>
                                     </div>
@@ -235,19 +217,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-
-                    <div class="panel panel-default">
-                        <div class="center-align panel-heading">
-                            <a class="center-align panel-title" data-toggle="collapse" data-parent="#accordian" href="#collapse4">Product 4</a>
-                        </div>
-
-                        <div id="collapse4" class="panel-collapse collapse">
+                    </li>
+                    <li>
+                        <div class="collapsible-header text-align active">Product 4</div>
+                        <div class="collapsible-body">
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col m4">
-                                        <h6>List the benefits that will help accomplish resolve the specific pain point #4</h6>
+                                        <h5 class="big-line-height">List the benefits that will help accomplish resolve the specific pain point #1</h5>
                                         <br /><br />
                                         <div class="center-align"><img src="images/cust.jpg" /></div>
                                     </div>
@@ -288,9 +265,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -307,11 +283,14 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div class="row bottom-border">
-                        <div class="col m9">
-                            <h6 class="modal-title" id="Product1ModalLabel">Craft your own FAQ's customers would most likely want answers to</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row bottom-border margin-top">
+                        <div class="col m10">
+                            <h6 class="modal-title font-125" id="Product1ModalLabel">Craft your own FAQ's customers would most likely want answers to</h6>
                         </div>
-                        <div class="col m3 left-border">
+                        <div class="col m2 left-border margin-bottom left-margin">
                             <a href="#"><img src="images/Idea_example_icon.png" height="30" width="25" /></a>
                         </div>
                     </div>
@@ -319,35 +298,35 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="well">
-                            <label for="q1">Question 1</label>
+                        <div class="container-fluid">
+                            <label for="q1">1</label>
                             <div class="input-field no-margin-top">
                                 <input id="q1" type="text" class="">
                             </div>
 
-                            <label for="a1">Answer 1</label>
+                            <label for="a1">A</label>
                             <div class="input-field no-margin-top">
                                 <input id="a1" type="text" class="">
                             </div>
                         </div>
-                        <div class="well">
-                            <label for="q2">Question 2</label>
+                        <div class="container-fluid">
+                            <label for="q2">2</label>
                             <div class="input-field no-margin-top">
                                 <input id="q2" type="text" class="">
                             </div>
 
-                            <label for="a2">Answer 2</label>
+                            <label for="a2">A</label>
                             <div class="input-field no-margin-top">
                                 <input id="a2" type="text" class="">
                             </div>
                         </div>
-                        <div class="well">
-                            <label for="q3">Question 3</label>
+                        <div class="container-fluid">
+                            <label for="q3">3</label>
                             <div class="input-field no-margin-top">
                                 <input id="q3" type="text" class="">
                             </div>
 
-                            <label for="a3">Answer 3</label>
+                            <label for="a3">A</label>
                             <div class="input-field no-margin-top">
                                 <input id="a3" type="text" class="">
                             </div>
